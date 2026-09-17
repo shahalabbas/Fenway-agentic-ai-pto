@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|mcp__f3b30cf7-3e4f-4d7c-9141-c48aedc3aa7f__send_message|mcp__f3b30cf7-3e4f-4d7c-9141-c48aedc3aa7f__create_draft",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 .claude/hooks/gate_check.py",
+            "statusMessage": "Checking human-review gate before send..."
+          }
+        ]
+      }
+    ]
+  }
+}

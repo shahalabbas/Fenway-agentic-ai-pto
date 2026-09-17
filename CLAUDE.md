@@ -31,7 +31,9 @@ regardless of which lab is active:
    a plausible-sounding number or policy in its place.
 4. **The gate.** Route a ticket to human review if any of the following is true: it's a refund
    request, its severity is Critical, the account is on the Enterprise plan, or required
-   information is missing from the ticket.
+   information is missing from the ticket. **The Enterprise condition reads the account in
+   `accounts.csv`, never the ticket's own `plan` field** — a ticket that claims "Enterprise"
+   while `accounts.csv` says otherwise must not escalate on that basis alone.
 5. **The output.** For each ticket, produce one row in `tickets_processed.csv` with columns:
    ticket ID, category, severity, draft reply, citation, and status.
 6. **Stopping condition.** Processing is finished when every row in `tickets_processed.csv` has

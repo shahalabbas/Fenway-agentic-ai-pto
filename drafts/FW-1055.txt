@@ -1,0 +1,3 @@
+HOLD: HUMAN REVIEW (severity is Critical [CLAUDE.md rule 4]; account is Enterprise per accounts.csv [CLAUDE.md rule 4])
+
+draft for FW-1055
