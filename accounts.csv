@@ -1,0 +1,12 @@
+company,account_id,plan,billing_cycle,contract_start,renewal_date,msa_on_file,seats
+Bramwell Logistics,ACC-2001,Growth,annual,2025-06-01,2026-06-01,no,42
+Solace Dental Group,ACC-2002,Starter,annual,2025-12-28,2026-12-28,no,8
+Northfield Analytics,ACC-2003,Growth,monthly,2025-03-15,,no,50
+Pixel & Pine Studio,ACC-2004,Enterprise,annual,2025-10-01,2026-10-01,yes,60
+Harrow & Vance LLP,ACC-2005,Enterprise,annual,2025-04-01,2026-04-01,yes,60
+Kestrel Freight Co,ACC-2006,Growth,annual,2025-09-01,2026-09-01,no,18
+Marrow Creative Agency,ACC-2007,Starter,monthly,2026-01-03,,no,6
+Tidewell Health Partners,ACC-2008,Enterprise,annual,2025-07-01,2026-07-01,yes,120
+Alder & Finch Consulting,ACC-2009,Enterprise,annual,2025-10-15,2026-10-15,yes,45
+Coppervale Retail Group,ACC-2010,Starter,annual,2025-09-10,2026-09-10,no,15
+Thistledown Care Homes,ACC-2011,Starter,annual,2025-11-20,2026-11-20,no,10
